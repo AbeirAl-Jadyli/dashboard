@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.no-p {
+    padding: 0 !important;
+}
+
+.no-m {
+    margin: 0 !important;
+}
+i {
+    font-size: .85rem;
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.parent:hover .items i {
+    opacity: 1;
+}
+
+hr {
+    margin-block: 15px;
+    opacity: .3;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.mw-100 {
+    max-width: 100%;
+}
+
+.btn-grow {
+    color: #fff;
+    background-color: #4e73df;
+    border-color: #4e73df;
+    text-align: center;
+    border-radius: .35rem;
+    border: 1px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+
+}
+
+.radius {
+    border-radius: 10px;
+}
+
+.input:first-child {
+    border-start-end-radius: 0;
+    border-end-end-radius: 0;
+}
+
+.button:last-child {
+    border-start-start-radius: 0;
+    border-end-start-radius: 0;
+}
+
+.bg-light {
+    background-color: #f8f9fc
+}
+
+
+.My-Earnings {
+    padding-inline: 24px;
+}
+
+h3 {
+    line-height: 1.2;
+    color: #4e73df;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}

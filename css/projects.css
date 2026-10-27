@@ -1,0 +1,101 @@
+.progress {
+    height: 1rem;
+    background-color: rgb(17, 0, 255);
+    border-radius: .35rem;
+    margin-bottom: 1.25rem;
+}
+
+.h-b-prog {
+    height: 1rem;
+    border-start-end-radius: 0;
+    border-end-end-radius: 0;
+    border-start-start-radius: .35rem;
+    border-end-start-radius: .35rem;
+}
+
+.color-prog1 {
+    background-color: #e74a3b;
+    width: 20%;
+}
+
+.color-prog2 {
+    background-color: #f6c23e;
+    width: 40%;
+}
+
+.color-prog3 {
+    background-color: #4e73df;
+    width: 50%;
+}
+
+.color-prog4 {
+    background-color: #36b9cc;
+    width: 80%;
+}
+
+.color-prog5 {
+    background-color: #1cc88a;
+    width: 100%;
+    border-start-end-radius: .35rem;
+    border-end-end-radius: .35rem;
+    border-start-start-radius: .35rem;
+    border-end-start-radius: .35rem;
+}
+
+.color .col {
+    width: 50%;
+
+}
+
+.color [class^="col"]>* {
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15);
+    border-radius: .35rem;
+    padding: 12px;
+    color: #fff;
+}
+
+.color .primary {
+    background-color: #4e73df;
+}
+
+.color .Info {
+    background-color: #36b9cc;
+}
+
+.color .Danger {
+    background-color: #e74a3b;
+}
+
+.color .Light {
+    background-color: #f8f9fc;
+    color: rgb(0, 0, 0, .5);
+}
+
+.color .Success {
+    background-color: #1cc88a;
+}
+
+.color .Warning {
+    background-color: #f6c23e;
+}
+
+.color .Secondary {
+    background-color: #858796;
+}
+
+.color .Dark {
+    background-color: #5a5c69;
+}
+
+.my-color div {
+    padding: 20px;
+}
+
+.body-card a {
+    color: blue;
+}
+
+footer div {
+    text-align: center;
+    padding: 24px;
+}
