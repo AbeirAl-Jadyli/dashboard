@@ -1,6 +1,6 @@
-@import url(_variables.css);
-@import url(_sidebar.css);
-@import url(_header.css);
+@import url(variables.css);
+@import url(sidebar.css);
+@import url(header.css);
 @import url(my-card.css);
 @import url(view.css);
 @import url(projects.css);
