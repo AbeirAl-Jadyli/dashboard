@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+
+</head>
+
+<body>
+    <div class="admindash  d-flex">
+
+        <!-- dashboard -->
+        <div class="sidebar">
+            <div class="container-fluid">
+                <div class="dashboard d-flex flex-column">
+                    <div class="admin-item gap-3 align-items-center justify-content-center d-flex">
+                        <a href=""><i class="fa-solid fa-face-laugh-wink"></i></a>
+                        <div>sb admin <sup>2</sup></div>
+                    </div>
+                    <hr>
+
+                    <div class="items gap-3 dash no-p">
+                        <i class="fa-solid fa-stopwatch"></i>
+                        <a href="">
+                            <span>dashboard</span>
+                        </a>
+                    </div>
+                    <hr>
+                    <div>
+                        <h3 class="title-items">interface</h3>
+                        <div class="">
+                            <div class="parent  align-items-center justify-content-between d-flex">
+                                <div class="items gap-3 d-flex">
+                                    <i class="fa-solid fa-gear"></i>
+                                    <h5>components</h5>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="parent  align-items-center justify-content-between d-flex">
+                                <div class="items gap-3 d-flex">
+                                    <i class="fa-solid fa-wrench"></i>
+                                    <h5>utilites</h5>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="addons ">
+                        <h2 class="title-items">addones</h2>
+                        <div>
+                            <div class="parent  align-items-center justify-content-between d-flex">
+                                <div class="items gap-3 d-flex">
+                                    <i class="fa-solid fa-folder"></i>
+                                    <h5>pages</h5>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="parent  align-items-center justify-content-between d-flex">
+                                <div class="items gap-3 d-flex">
+                                    <i class="fa-solid fa-chart-area"></i>
+                                    <h5><a href="">charts</a></h5>
+                                </div>
+
+                            </div>
+                            <div class="parent  align-items-center justify-content-between d-flex">
+                                <div class="items gap-3 d-flex">
+                                    <i class="fa-solid fa-table"></i>
+                                    <h5><a href="">tables</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="items gap-3-icon align-items-center d-flex justify-content-center">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Page Content -->
+        <div class="content">
+            <header>
+                <div class="my-dashboard d-flex justify-content-between align-items-center d-flex">
+                    <div class="search">
+                        <div class="input-group">
+                            <input type="text" class="form-control bg-light border-0" placeholder="search for..">
+                            <button class="btn-grow"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </div>
+                    <div class="user-area align-items-center d-flex gap-3">
+                        <div class="user-icon d-flex gap-3">
+                            <i class="fa-solid fa-bell"></i>
+                            <div class="red1"><span style="font-size: 12px; color: white; position: absolute;">3+</span>
+                            </div>
+                            <i class="fa-solid fa-message"></i>
+                            <div class="red2"><span
+                                    style="font-size: 12px; color: white; position: absolute; left: 3px;">7</span></div>
+                        </div>
+                        <div class="user align-items-center d-flex gap-2">
+                            <h2>Douglas McGee</h2>
+                            <img src="image/undraw_profile.svg" alt="" width="50px">
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+
+
+
+
+            <div class="My-Earnings">
+
+
+                <!--  earnings-->
+                <div class="section-dashboard">
+                    <h2>Dashboard</h2>
+                    <div class="Earnings">
+                        <div class="row g-4">
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="my-card flex-grow-1 Monthly">
+                                    <div class="card-ear justify-content-between d-flex">
+                                        <div>
+                                            <h3>Earnings (Monthly)</h3>
+                                            <span>$40,000</span>
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-calendar"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="my-card flex-grow-1 Annual">
+                                    <div class="card-ear justify-content-between d-flex">
+                                        <div>
+                                            <h3>Earnings (Annual)</h3>
+                                            <span>$40,000</span>
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-dollar-sign"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="my-card flex-grow-1 Tasks">
+                                    <div class="card-ear justify-content-between d-flex">
+                                        <div>
+                                            <h3>Tasks</h3>
+                                            <span>$40,000</span>
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-clipboard-list"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="my-card flex-grow-1 Pending">
+                                    <div class="card-ear justify-content-between d-flex">
+                                        <div>
+                                            <h3>Pending Requests</h3>
+                                            <span>$40,000</span>
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-comments"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- view -->
+
+
+                <div class="view">
+
+                    <div class="d-flex gap-4">
+
+                        <div class="over d-flex overview">
+                            <div class="header-card justify-content-between d-flex">
+                                <div>
+                                    <h3>Earnings Overview</h3>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                            <div class="body-card">
+                                <img src="image/download.png" class="mw-100" alt="">
+                            </div>
+
+                        </div>
+
+                        <div class="over d-flex revenue">
+
+                            <div class="header-card justify-content-between d-flex">
+                                <div>
+                                    <h3>Revenue Sources</h3>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                            <div class="body-card">
+                                <img src="image/download 2.png" class="mw-100" alt="">
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="row g-4 mb-24">
+                    <!-- Projects -->
+                    <div class="col-12 col-lg-6">
+                        <section class="view section-projects">
+                            <div class="header">
+                                <div class="over d-flex my-projects mb-24">
+                                    <div class="header-card justify-content-between d-flex">
+                                        <div>
+                                            <h3>Projects</h3>
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="body-card">
+
+                                        <div class="title-prog">
+                                            <div>
+                                                Server Migration
+                                            </div>
+                                            <div>
+                                                20%
+                                            </div>
+                                        </div>
+
+                                        <!-- progress 1 -->
+                                        <div class="progress">
+                                            <div class="color-prog1 h-b-prog">
+
+                                            </div>
+                                        </div>
+                                        <div class="title-prog">
+                                            <div>
+                                                Sales Tracking
+                                            </div>
+                                            <div>
+                                                40%
+                                            </div>
+                                        </div>
+
+                                        <!-- progress -->
+                                        <div class="progress">
+                                            <div class="color-prog2 h-b-prog">
+
+                                            </div>
+                                        </div>
+                                        <div class="title-prog">
+                                            <div>
+                                                Customer Database
+                                            </div>
+                                            <div>
+                                                60%
+                                            </div>
+                                        </div>
+
+                                        <!-- progress -->
+                                        <div class="progress">
+                                            <div class="color-prog3 h-b-prog">
+
+                                            </div>
+                                        </div>
+
+
+                                        <div class="title-prog">
+                                            <div>
+                                                Payout Details
+                                            </div>
+                                            <div>
+                                                80%
+                                            </div>
+                                        </div>
+
+                                        <!-- progress -->
+                                        <div class="progress">
+                                            <div class="color-prog4 h-b-prog">
+
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                Account Setup
+                                            </div>
+                                            <div>
+                                                Complete!
+                                            </div>
+                                        </div>
+
+                                        <!-- progress -->
+                                        <div class="progress">
+                                            <div class="color-prog5 h-b-prog">
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <!-- footer-card -->
+                                <div class="footer-card color">
+                                    <div class="row g-4">
+                                        <div class="col-12 col-lg-6">
+                                            <div class="primary">
+                                                <h4>Primary</h4>
+                                                <h5>#4e73df</h5>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-lg-6">
+                                            <div class="Info">
+                                                <h4>Info</h4>
+                                                <h5>#36b9cc</h5>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-lg-6">
+                                            <div class="Danger">
+                                                <h4>Danger</h4>
+                                                <h5>#e74a3b</h5>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-lg-6">
+                                            <div class="Light ">
+                                                <h4>Light</h4>
+                                                <h5>#f8f9fc</h5>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-lg-6">
+                                            <div class="Success">
+                                                <h4>Success</h4>
+                                                <h5>#1cc88a</h5>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-lg-6">
+                                            <div class="Warning">
+                                                <h4>Warning</h4>
+                                                <h5>#f6c23e</h5>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-lg-6">
+                                            <div class="Secondary">
+                                                <h4>Secondary</h4>
+                                                <h5>#858796</h5>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-lg-6">
+                                            <div class="Dark">
+                                                <h4>Dark</h4>
+                                                <h5>#5a5c69</h5>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </section>
+                    </div>
+
+                    <!-- Illustrations -->
+                    <div class="col-12 col-lg-6">
+                        <section class="view  section-illust">
+                            <div class="over d-flex my-illustrations mb-24">
+
+                                <div class="header-card justify-content-between d-flex">
+                                    <div>
+                                        <h3>Illustrations</h3>
+                                    </div>
+                                    <div>
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </div>
+                                </div>
+
+                                <div class="body-card">
+
+                                    <div>
+                                        <img src="image/undraw_posting_photo.svg" class="mw-100" alt="">
+                                    </div>
+                                    <div>
+                                        Add some quality, svg illustrations to your project courtesy of unDraw,
+                                        a
+                                        constantly updated collection of beautiful svg images that you can use
+                                        completely free and without attribution!
+                                    </div>
+                                    <a href="">
+                                        Browse Illustrations on unDraw →
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                            <div class="over">
+                                <div class="header-card justify-content-between d-flex">
+                                    <h3>Development Approach</h3>
+                                </div>
+                                <div class="body-card">
+                                    SB Admin 2 makes extensive use of Bootstrap 4 utility classes in order to
+                                    reduce
+                                    CSS bloat and poor page performance. Custom CSS classes are used to create
+                                    custom components and custom utility classes.
+                                    Before working with this theme, you should become familiar with the
+                                    Bootstrap
+                                    framework, especially the utility classes.
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- footer -->
+
+            <footer>
+                <div>
+                    <span>Copyright © Your Website 2021</span>
+                </div>
+            </footer>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" ></script>
+</body>
+
+</html>
